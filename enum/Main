@@ -1,0 +1,13 @@
+public class Main {
+
+	public static void main(String[] args) {
+		Suspension suspension = new Suspension();
+		suspension.setLevel(Suspension.Level.MAX);
+		suspension.printInfo();
+		
+		Suspension2 suspension2 = new Suspension2();
+		suspension2.setLevel(Suspension2.Level.MIDDLE);
+		suspension2.printInfo();
+	}
+
+}
